@@ -1,0 +1,42 @@
+package String;
+
+public class SampleStringDemo {
+
+	public static void main(String[] args) {
+		
+		
+		//create simple string
+		
+		char c[]= {'p','r','a','j','a','k','t','a'};
+		String s1=new String(c);
+		String s2=new String(s1);
+		
+		System.out.println(s1);
+		System.out.println(s2);
+		
+
+	}
+
+}
+
+package String;
+
+public class StringOperation {
+
+	public static void main(String[] args) {
+		
+		String s1=new String(" Indian ");
+		String s2=s1.toUpperCase();
+		System.out.println(s2);
+		
+		int l=s1.length();
+		System.out.println(l);
+		
+		
+		System.out.println(s2.charAt(5));
+		
+		
+
+	}
+
+}
